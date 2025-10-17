@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="windows-1251"></meta>
+    <title>Бабиджон Хаб</title>
+    <link rel="icon" type="image/png" href="bbjhub_verypre.png"></link>
+    <style>
+        body{
+            margin-top: 0;
+            background: rgb(207, 207, 207);
+        }
+        .leftbar {
+            margin-top: 20px;
+            border: 1px solid;
+            border-radius: 10px;
+            background-color: rgb(158, 158, 158);
+            height: fit-content;
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* центрирует все дочерние элементы по горизонтали */
+            list-style-type: none;
+        }
+
+         .avatar {
+            display: inherit;
+            padding-top: 4px;
+            border-radius: 10px;
+         }
+
+        .mainpage{
+            justify-content: space-between;
+            display: flex;
+        }
+
+        .contentframe{
+            flex-grow: 1;
+            margin-top: 20px;
+            float: right;
+            text-align: left;
+            height: fit-content;
+            display: flex;
+        }
+
+        .contentname{
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .content{
+            border-radius: 4px;
+            background: rgb(140, 158, 192);
+            flex-grow: 1;
+        }
+
+        .contentimg{
+            float: right;
+            max-height: 128px;
+            max-width: 128px;
+            margin-right: 4px;
+        }
+
+        .header{
+            background: linear-gradient(rgb(73, 126, 224), rgb(18, 34, 255));
+            color: darkgoldenrod;
+            display: flex;
+            justify-content: center;
+        }
+
+        .headactive{
+            padding: 14px 16px;
+            border: 1px solid black;
+            border-radius: 6px;
+            margin: 0;
+            background-color: rgb(76, 159, 214);
+         }
+
+         .credits{
+            margin-top: 50px;
+            background: gray;
+         }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a class="headactive" href="main.xhtml">На страницу тестирования</a>
+        <a class="headactive">Discord-сервер</a>
+        <a class="headactive">Чат</a>
+        <a class="headactive">Демо</a>
+    </div>
+        <div class="mainpage">
+            <div class="leftbar">
+                <img src="byeyan_avatar.png" width="64" height="64" class="avatar"/>
+                <ul>
+                    <li>$username</li>
+                    <li><img src="bbj_profile.png"/><a>Профиль</a></li>
+                    <li><img src="bbj_exp_higher.png"/>Уровень</li>
+                    <li>STUB</li>
+                    <li>STUB</li>
+                </ul>
+            </div>
+            <div class="contentframe">
+                <div class="content"> 
+                    <div class="contentname"> Список ссылок </div>  
+                    <hr/>
+                    <div class="contentimg"><img src="Kris_gangnam.gif"/></div>
+                    Ассеты: <a href="bbj_main.xhtml">*тык*</a><br/>
+                    Путь на главную: <a href="main.xhtml">*тык*</a><br/>
+                    Скачать танцующего Криса: <a href="file:///home/lenya505/XHTML/files/Kris_gangnam.gif" download="Kris">*тык*</a>(не работает в XHTML)
+                </div>
+             </div>
+        </div>
+</body>
+<footer>
+    <div class="credits">
+        Запилено Баяном в 2025 году
+    </div>
+</footer>
+</html>
