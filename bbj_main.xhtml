@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="windows-1251"?>
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="windows-1251"></meta>
-    <title>Р‘Р°Р±РёРґР¶РѕРЅ РҐР°Р±</title>
+    <title>Бабиджон Хаб</title>
     <link rel="icon" type="image/png" href="bbjhub_verypre.png"></link>
     <style>
         body{
@@ -19,7 +19,7 @@
             width: fit-content;
             display: flex;
             flex-direction: column;
-            align-items: center; /* С†РµРЅС‚СЂРёСЂСѓРµС‚ РІСЃРµ РґРѕС‡РµСЂРЅРёРµ СЌР»РµРјРµРЅС‚С‹ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
+            align-items: center;
             list-style-type: none;
         }
 
@@ -66,6 +66,7 @@
             color: darkgoldenrod;
             display: flex;
             justify-content: center;
+            font-weight: bold;
         }
 
         .headactive{
@@ -74,9 +75,14 @@
             border-radius: 6px;
             margin: 0;
             background-color: rgb(76, 159, 214);
+            transition-duration: 0.5s;
          }
 
-         .credits{
+        .headactive:hover{
+            background-color: rgb(128, 78, 243);
+        }
+
+        .credits{
             margin-top: 50px;
             background: gray;
          }
@@ -84,37 +90,37 @@
 </head>
 <body>
     <div class="header">
-        <a class="headactive" href="index.xhtml">РќР° СЃС‚СЂР°РЅРёС†Сѓ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ</a>
-        <a class="headactive">Discord-СЃРµСЂРІРµСЂ</a>
-        <a class="headactive">Р§Р°С‚</a>
-        <a class="headactive">Р”РµРјРѕ</a>
+        <a class="headactive" href="main.xhtml">На страницу тестирования</a>
+        <a class="headactive" href="#stub">Discord-сервер</a>
+        <a class="headactive" href="#stub">Чат</a>
+        <a class="headactive" href="#stub">Демо</a>
     </div>
         <div class="mainpage">
             <div class="leftbar">
                 <img src="byeyan_avatar.png" width="64" height="64" class="avatar"/>
                 <ul>
                     <li>$username</li>
-                    <li><img src="bbj_profile.png"/><a>РџСЂРѕС„РёР»СЊ</a></li>
-                    <li><img src="bbj_exp_higher.png"/>РЈСЂРѕРІРµРЅСЊ</li>
+                    <li><img src="bbj_profile.png"/><a>Профиль</a></li>
+                    <li><img src="bbj_exp_higher.png"/>Уровень</li>
                     <li>STUB</li>
                     <li>STUB</li>
                 </ul>
             </div>
             <div class="contentframe">
                 <div class="content"> 
-                    <div class="contentname"> РЎРїРёСЃРѕРє СЃСЃС‹Р»РѕРє </div>  
+                    <div class="contentname">Список ссылок</div>  
                     <hr/>
                     <div class="contentimg"><img src="Kris_gangnam.gif"/></div>
-                    РђСЃСЃРµС‚С‹: <a href="bbj_main.xhtml">*С‚С‹Рє*</a><br/>
-                    РџСѓС‚СЊ РЅР° РіР»Р°РІРЅСѓСЋ: <a href="main.xhtml">*С‚С‹Рє*</a><br/>
-                    РЎРєР°С‡Р°С‚СЊ С‚Р°РЅС†СѓСЋС‰РµРіРѕ РљСЂРёСЃР°: <a href="file:///home/lenya505/XHTML/files/Kris_gangnam.gif" download="Kris">*С‚С‹Рє*</a>(РЅРµ СЂР°Р±РѕС‚Р°РµС‚ РІ XHTML)
+                    Ассеты: <a href="bbj_main.xhtml">*тык*</a><br/>
+                    Путь на главную: <a href="main.xhtml">*тык*</a><br/>
+                    Скачать танцующего Криса: <a href="file:///home/lenya505/XHTML/files/Kris_gangnam.gif" download="Kris">*тык*</a>(Не работает в XHTML)
                 </div>
              </div>
         </div>
 </body>
 <footer>
     <div class="credits">
-        Р—Р°РїРёР»РµРЅРѕ Р‘Р°СЏРЅРѕРј РІ 2025 РіРѕРґСѓ
+        Запилено Баяном в 2025 году
     </div>
 </footer>
 </html>
